@@ -30,8 +30,8 @@ def crop_image(frame, box):
     return crop
 
 
-def run_video_capture(cap, models_path: Union[Path, str], fd_path):
-    face_detector = FaceDetector(str(models_path / fd_path),
+def run_video_capture(cap, model_path: Union[Path, str]):
+    face_detector = FaceDetector(str(model_path),
                                  gpu_memory_fraction=0.5,
                                  visible_device_list='0'
                                  )
