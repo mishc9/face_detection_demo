@@ -2,7 +2,7 @@
 Face detection demo for CSC
 
 ## Installation
-NB: venv is higly recommended!
+NB: venv is highly recommended!
 
 ```
 $ git clone  
