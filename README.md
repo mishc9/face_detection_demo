@@ -1,5 +1,5 @@
 # face_detection_demo
-Face detection demo for CSC
+Face detection demo for CSC. Source: https://github.com/TropComplique/FaceBoxes-tensorflow
 
 ## Installation
 NB: venv is highly recommended!
